@@ -23,7 +23,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\Core\Dreamine.MVVM.Core.csproj" />
-		<ProjectReference Include="..\Dreamine.Threading\Dreamine.Threading.csproj" />
+		<ProjectReference Include="..\Threading\Dreamine.Threading.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
