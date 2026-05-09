@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<PackageId>Dreamine.Threading.Windows</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Dreamine Core Team</Authors>
+		<Company>Dreamine</Company>
+		<Description>Windows-specific threading services for Dreamine, including CPU affinity and timer resolution integration.</Description>
+		<PackageTags>dreamine;threading;windows;cpu-affinity;timer-resolution;worker;dotnet;csharp</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/CodeMaru-Dreamine/Dreamine.Threading.Windows</RepositoryUrl>
+		<PackageProjectUrl>https://dreamine.kr/</PackageProjectUrl>
+		<Title>Dreamine.Threading.Windows</Title>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>icon.png</PackageIcon>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Copyright>© 2026 Dreamine Core Team. All rights reserved.</Copyright>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Core\Dreamine.MVVM.Core.csproj" />
+		<ProjectReference Include="..\Dreamine.Threading\Dreamine.Threading.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="README.md" Pack="true" PackagePath="\" />
+		<None Update="README_KO.md" Pack="true" PackagePath="\" />
+		<None Update="icon.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+</Project>
