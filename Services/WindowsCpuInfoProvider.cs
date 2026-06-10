@@ -1,14 +1,13 @@
-﻿namespace Dreamine.Threading.Windows.Services;
+using Dreamine.Threading.Interfaces;
+
+namespace Dreamine.Threading.Windows.Services;
 
 /// <summary>
 /// Provides CPU information for Windows threading services.
 /// </summary>
-public sealed class WindowsCpuInfoProvider
+public sealed class WindowsCpuInfoProvider : ICpuInfoProvider
 {
-    /// <summary>
-    /// Gets the logical processor count.
-    /// </summary>
-    /// <returns>The logical processor count.</returns>
+    /// <inheritdoc />
     public int GetLogicalProcessorCount()
     {
         return Environment.ProcessorCount <= 0
@@ -16,11 +15,7 @@ public sealed class WindowsCpuInfoProvider
             : Environment.ProcessorCount;
     }
 
-    /// <summary>
-    /// Determines whether the specified CPU core index is valid.
-    /// </summary>
-    /// <param name="coreIndex">The CPU core index.</param>
-    /// <returns>True if the core index is valid; otherwise false.</returns>
+    /// <inheritdoc />
     public bool IsValidCoreIndex(int coreIndex)
     {
         return coreIndex >= 0 && coreIndex < GetLogicalProcessorCount();

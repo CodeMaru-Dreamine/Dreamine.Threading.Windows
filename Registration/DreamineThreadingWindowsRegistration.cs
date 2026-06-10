@@ -19,6 +19,12 @@ public static class DreamineThreadingWindowsRegistration
             DMContainer.RegisterSingleton<WindowsCpuInfoProvider>();
         }
 
+        if (!DMContainer.IsRegistered<ICpuInfoProvider>())
+        {
+            DMContainer.RegisterSingleton<ICpuInfoProvider>(
+                DMContainer.Resolve<WindowsCpuInfoProvider>());
+        }
+
         if (!DMContainer.IsRegistered<IThreadAffinityService>())
         {
             DMContainer.RegisterSingleton<IThreadAffinityService, WindowsThreadAffinityService>();
