@@ -1,5 +1,11 @@
 # Dreamine.Threading.Windows
 
+[![CI](https://github.com/CodeMaru-Dreamine/Dreamine.Threading.Windows/actions/workflows/ci.yml/badge.svg)](https://github.com/CodeMaru-Dreamine/Dreamine.Threading.Windows/actions/workflows/ci.yml) [![품질 게이트](https://sonarcloud.io/api/project_badges/measure?project=CodeMaru-Dreamine_Dreamine.Threading.Windows&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=CodeMaru-Dreamine_Dreamine.Threading.Windows) [![보안](https://sonarcloud.io/api/project_badges/measure?project=CodeMaru-Dreamine_Dreamine.Threading.Windows&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=CodeMaru-Dreamine_Dreamine.Threading.Windows) [![커버리지](https://sonarcloud.io/api/project_badges/measure?project=CodeMaru-Dreamine_Dreamine.Threading.Windows&metric=coverage)](https://sonarcloud.io/summary/new_code?id=CodeMaru-Dreamine_Dreamine.Threading.Windows)
+
+[![라이선스](https://img.shields.io/github/license/CodeMaru-Dreamine/Dreamine.Threading.Windows)](LICENSE) ![.NET](https://img.shields.io/badge/.NET-8-512BD4) ![Windows](https://img.shields.io/badge/Windows-0078D4) [![NuGet](https://img.shields.io/nuget/v/Dreamine.Threading.Windows)](https://www.nuget.org/packages/Dreamine.Threading.Windows) [![다운로드](https://img.shields.io/nuget/dt/Dreamine.Threading.Windows)](https://www.nuget.org/packages/Dreamine.Threading.Windows)
+
+[![문서](https://img.shields.io/badge/문서-dreamine.kr-2496ED)](https://dreamine.kr) [![가이드](https://img.shields.io/badge/가이드-dreamine.kr-2496ED)](https://dreamine.kr) [![플레이그라운드](https://img.shields.io/badge/플레이그라운드-dreamine.kr-6F42C1)](https://dreamine.kr) [![도서](https://img.shields.io/badge/도서-실전_MVVM_아키텍처-111111)](https://dreamine.kr)
+
 **Dreamine.Threading.Windows**는 Dreamine.Threading을 위한 Windows 전용 스레딩 서비스 패키지입니다.
 
 이 패키지는 CPU Affinity, Timer Resolution, Windows CPU 정보, 프로세스 CPU 사용률 측정 같은 플랫폼 의존 기능을 구현합니다.  
