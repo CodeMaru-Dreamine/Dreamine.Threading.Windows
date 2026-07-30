@@ -1,5 +1,11 @@
 # Dreamine.Threading.Windows
 
+[![CI](https://github.com/CodeMaru-Dreamine/Dreamine.Threading.Windows/actions/workflows/ci.yml/badge.svg)](https://github.com/CodeMaru-Dreamine/Dreamine.Threading.Windows/actions/workflows/ci.yml) [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=CodeMaru-Dreamine_Dreamine.Threading.Windows&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=CodeMaru-Dreamine_Dreamine.Threading.Windows) [![Security](https://sonarcloud.io/api/project_badges/measure?project=CodeMaru-Dreamine_Dreamine.Threading.Windows&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=CodeMaru-Dreamine_Dreamine.Threading.Windows) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=CodeMaru-Dreamine_Dreamine.Threading.Windows&metric=coverage)](https://sonarcloud.io/summary/new_code?id=CodeMaru-Dreamine_Dreamine.Threading.Windows)
+
+[![License](https://img.shields.io/github/license/CodeMaru-Dreamine/Dreamine.Threading.Windows)](LICENSE) ![.NET](https://img.shields.io/badge/.NET-8-512BD4) ![Windows](https://img.shields.io/badge/Windows-0078D4) [![NuGet](https://img.shields.io/nuget/v/Dreamine.Threading.Windows)](https://www.nuget.org/packages/Dreamine.Threading.Windows) [![Downloads](https://img.shields.io/nuget/dt/Dreamine.Threading.Windows)](https://www.nuget.org/packages/Dreamine.Threading.Windows)
+
+[![Docs](https://img.shields.io/badge/Docs-dreamine.kr-2496ED)](https://dreamine.kr) [![Guide](https://img.shields.io/badge/Guide-dreamine.kr-2496ED)](https://dreamine.kr) [![Playground](https://img.shields.io/badge/Playground-dreamine.kr-6F42C1)](https://dreamine.kr) [![Book](https://img.shields.io/badge/Book-Practical_MVVM_Architecture-111111)](https://dreamine.kr)
+
 **Dreamine.Threading.Windows** provides Windows-specific threading services for Dreamine.Threading.
 
 This package implements platform-dependent features such as CPU affinity, timer resolution, Windows CPU information, and process CPU usage measurement.  
